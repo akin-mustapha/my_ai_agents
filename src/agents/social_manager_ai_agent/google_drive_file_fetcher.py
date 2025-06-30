@@ -1,7 +1,7 @@
 # src/clients/google/google_drive_file_fetcher.py (rename your file)
 import os
 from datetime import datetime, timedelta, timezone # Import timezone here
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional
 
 # Assuming google_drive_client.py is in the same directory or accessible via PYTHONPATH
 from src.clients.google.google_drive_client import GoogleDriveClient

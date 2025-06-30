@@ -1,7 +1,7 @@
 # src/clients/google/google_drive_media_fetcher.py
 import os
 from datetime import datetime, timedelta
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional
 
 # Assuming google_drive_client.py is in the same directory or accessible via PYTHONPATH
 # If your google_drive_client.py is in src/clients/google/, this import is correct.
