@@ -56,4 +56,4 @@ text.txt
 /src/clients/google/token_calendar.pickle/*.json
 /src/clients/google/token_calendar.pickle
 /src/agents/smart_todo_list_schedular/token_calendar.pickle
-/src/agents/smart_todo_list_schedular/downloaded_remarkable_attachments/
+/src/agents/smart_todo_list_schedular/downloaded_remarkable_attachments/*
