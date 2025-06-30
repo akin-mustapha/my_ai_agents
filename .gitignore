@@ -46,3 +46,12 @@ config_local.py
 
 # Environment variables
 .env
+
+
+# project-specific ignores
+command.txt
+text.txt
+/secret/
+/src/agents/twitter(X)/*.txt
+/src/clients/google/token_calendar.pickle/*.json
+/src/clients/google/token_calendar.pickle
