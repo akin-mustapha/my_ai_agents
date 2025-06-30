@@ -1,0 +1,48 @@
+# Python-specific .gitignore file
+# This file is used to ignore files and directories that should not be tracked by Git in a Python project.
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific ignores
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# OS and temporary files
+*.swp
+*.bak
+*.tmp
+*.log
+*~
+
+# Sensitive Data / API Keys
+.env
+config_local.py
+*.Keys
+*.pem
+*.p12
+*.json
+
+# Environment variables
+.env
